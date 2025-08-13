@@ -1,0 +1,27 @@
+<svg width="600" height="160" viewBox="0 0 600 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ألوان البراند -->
+  <defs>
+    <style>
+      .brand{ fill:#0f4c3a }
+      .muted{ fill:#6c757d }
+      .stroke{ stroke:#0f4c3a; stroke-width:8; stroke-linecap:round; stroke-linejoin:round; fill:none }
+    </style>
+  </defs>
+
+  <!-- أيقونة شاحنة مبسّطة -->
+  <g transform="translate(20,38)">
+    <!-- صندوق الحمولة -->
+    <rect x="0" y="10" rx="10" ry="10" width="90" height="50" class="stroke"/>
+    <!-- الكابينة -->
+    <path d="M90 60 L120 60 L120 40 L105 40 L95 28 L90 28 Z" class="stroke"/>
+    <!-- العجلات -->
+    <circle cx="30" cy="80" r="12" class="brand"/>
+    <circle cx="100" cy="80" r="12" class="brand"/>
+    <!-- لمسة لون -->
+    <rect x="10" y="20" width="16" height="16" fill="#ffcc00" rx="3"/>
+  </g>
+
+  <!-- النص -->
+  <text x="180" y="80" class="brand" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" letter-spacing="1">Z&amp;S ELITE INC</text>
+  <text x="180" y="110" class="muted" font-family="Arial, Helvetica, sans-serif" font-size="18">Freight &amp; Delivery</text>
+</svg>
