@@ -1,74 +1,75 @@
-/* إعدادات عامة للصفحة */
+/* إعداد الخطوط والألوان الأساسية */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* شريط القوائم */
-nav {
-    background-color: #064420;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* العنوان الرئيسي */
+/* رأس الصفحة */
 header {
-    background-color: #064420;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
+  background: #004080;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 28px;
+  margin: 0;
+  font-size: 28px;
 }
 
-header p {
-    font-size: 16px;
+nav {
+  margin-top: 10px;
 }
 
-/* المحتوى الرئيسي */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* المحتوى */
 main {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* أزرار الروابط */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #064420;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+main h2 {
+  color: #004080;
 }
 
-.button:hover {
-    background-color: #056035;
+main a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* قائمة الخدمات */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
 /* الفوتر */
 footer {
-    background-color: #064420;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
-    font-size: 14px;
+  text-align: center;
+  padding: 15px;
+  background: #004080;
+  color: #fff;
+  margin-top: 20px;
 }
