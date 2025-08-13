@@ -7,38 +7,51 @@
   <meta name="description" content="Contact Z&S Elite Inc for quotes and delivery requests in NJ and nearby states.">
   <link rel="canonical" href="https://zseliteinc.com/contact">
   <style>
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55;color:#222}
-    header{padding:40px 16px;text-align:center;background:#f3f5f7}
-    main{max-width:860px;margin:28px auto;padding:0 16px}
-    .card{border:1px solid #e6e6e6;border-radius:8px;padding:16px}
-    a{color:inherit}
-    .btn{display:inline-block;margin:8px 8px 0 0;padding:10px 14px;border:1px solid #222;border-radius:6px;text-decoration:none}
-    .btn.primary{background:#222;color:#fff}
-    footer{margin:40px 0 20px;text-align:center;color:#666;font-size:14px}
+    :root{--green:#0f4c3a;--ink:#1f2328;--line:#e6e6e6;--muted:#586069}
+    *{box-sizing:border-box}html,body{margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);line-height:1.55;background:#fff}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:900px;margin:0 auto;padding:0 18px}
+    .nav{background:var(--green);color:#fff}
+    .nav .container{display:flex;align-items:center;justify-content:space-between;padding:12px 18px}
+    .nav a{color:#fff;margin-left:18px}
+    header{background:var(--green);color:#fff}
+    header .container{padding:48px 18px 32px}
+    .btn{display:inline-block;margin:8px 12px 0 0;padding:12px 16px;border-radius:10px;border:1px solid #fff;color:#fff}
+    .btn.primary{background:#fff;color:var(--green)}
+    main{padding:26px 0}
+    .card{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fff}
+    footer{background:#fafbfc;color:var(--muted);text-align:center;padding:20px 10px;margin-top:30px;font-size:14px}
   </style>
 </head>
 <body>
-<header>
-  <h1>Contact Z&amp;S Elite Inc</h1>
-  <p>Get a fast quote or schedule a delivery.</p>
-  <p><a class="btn primary" href="mailto:info@zseliteinc.com?subject=Quote%20Request">Email: info@zseliteinc.com</a>
-     <a class="btn" href="tel:+18484596906">Call: +1-8484596906</a></p>
-</header>
+  <nav class="nav"><div class="container">
+    <div class="brand">Z&amp;S ELITE INC</div>
+    <div>
+      <a href="/">Home</a><a href="/about">About</a><a href="/services">Services</a>
+      <a href="/contact">Contact</a><a href="/request-a-quote">Request a Quote</a>
+    </div>
+  </div></nav>
 
-<main>
-  <div class="card">
-    <h2>Quick Quote (Email)</h2>
-    <p>Send us pickup & drop-off addresses, load details, preferred date/time, and contact phone.</p>
-    <p><a class="btn primary" href="mailto:info@zseliteinc.com?subject=Quote%20Request">Email Now</a></p>
-  </div>
+  <header>
+    <div class="container">
+      <h1>Contact Z&amp;S Elite Inc</h1>
+      <p>Get a fast quote or schedule a delivery.</p>
+      <a class="btn primary" href="mailto:info@zseliteinc.com?subject=Quote%20Request">Email: info@zseliteinc.com</a>
+      <a class="btn" href="tel:+18484596906">Call: +1-848-459-6906</a>
+    </div>
+  </header>
 
-  <div class="card" style="margin-top:20px;">
-    <h2>Back to Home</h2>
-    <p><a class="btn" href="/">← Home</a></p>
-  </div>
-</main>
+  <main>
+    <div class="container">
+      <div class="card">
+        <h2>Quick Quote (by Email)</h2>
+        <p>Please include: pickup &amp; drop-off addresses, load details, preferred date/time, and your phone.</p>
+      </div>
+    </div>
+  </main>
 
-<footer>© <span id="y"></span> Z&amp;S Elite Inc — zseliteinc.com</footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+  <footer>© <span id="y"></span> Z&amp;S Elite Inc — zseliteinc.com</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
