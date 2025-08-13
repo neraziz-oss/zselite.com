@@ -1,0 +1,74 @@
+/* إعدادات عامة للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* شريط القوائم */
+nav {
+    background-color: #064420;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* العنوان الرئيسي */
+header {
+    background-color: #064420;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* المحتوى الرئيسي */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* أزرار الروابط */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #064420;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #056035;
+}
+
+/* الفوتر */
+footer {
+    background-color: #064420;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+}
